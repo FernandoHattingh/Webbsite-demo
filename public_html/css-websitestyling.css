@@ -1,0 +1,417 @@
+/*
+    19002059
+    Author     : Fernando Hattingh
+*/
+
+ul.Navbar { /*(CSS Navigation Bar, n.d.)*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+body {
+    background-image: url('images/background.jpg'); /*(CSS Backgrounds, n.d.)*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+li.navi {/*(CSS Navigation Bar, n.d.)*/
+  float: left;
+}
+
+li.navi a {/*(CSS Navigation Bar, n.d.)*/
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.navi a:hover {/*(CSS Navigation Bar, n.d.)*/
+  background-color: #111;
+}
+
+ul.Navbar {/*(CSS Navigation Bar, n.d.)*/
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+ul.Navbar {/*(CSS Navigation Bar, n.d.)*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.Navbar li {float: left;}/*(CSS Navigation Bar, n.d.)*/
+
+ul.topnav li a {/*(CSS Navigation Bar, n.d.)*/
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.Navbar li a:hover:not(.active) {background-color: #111;}/*(CSS Navigation Bar, n.d.)*/
+
+ul.Navbar li a.active {background-color: #333;}/*(CSS Navigation Bar, n.d.)*/
+
+ul.Navbar li.right {float: right;}/*(CSS Navigation Bar, n.d.)*/
+
+@media screen and (max-width: 600px) {/*(CSS Navigation Bar, n.d.)*/
+  ul.Navbar li.right, 
+  ul.Navbar li {float: none;}
+}
+
+img { /*(CSS Image Gallery, n.d.)*/
+  max-width: 100%;
+  height: auto;
+}
+
+img.home-building{/*(CSS Image Gallery, n.d.)*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+img.our-workimg{/*(CSS Image Gallery, n.d.)*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;  
+}
+
+a.gallery-lnk:link, a.gallery-lnk:visited { /*(CSS Styling Links, n.d.)*/
+  background-color: midnightblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.gallery-lnk:hover, a.gallery-lnk:active {/*(CSS Styling Links, n.d.)*/
+  background-color: grey;
+}
+
+a.About-Us:link, a.About-Us:visited{/*(CSS Styling Links, n.d.)*/
+  background-color: midnightblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;  
+}
+
+a.About-Us:hover, a.About-Us:active{/*(CSS Styling Links, n.d.)*/
+  background-color: grey;  
+}
+
+a.our-work:link,a.our-work:visited{/*(CSS Styling Links, n.d.)*/
+  background-color: midnightblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;  
+}
+
+a.our-work:hover, a.our-work:active{/*(CSS Styling Links, n.d.)*/
+  background-color: grey;
+}
+
+a.get-involved:link,a.get-involved:visited{/*(CSS Styling Links, n.d.)*/
+  background-color: midnightblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;  
+}
+
+a.get-involved:hover,a.get-involved:active{/*(CSS Styling Links, n.d.)*/
+  background-color: grey;
+}
+
+a.contact-lnk:link, a.contact-lnk:visited{/*(CSS Styling Links, n.d.)*/
+  background-color: midnightblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;    
+}
+
+a.contact-lnk:hover, a.contact-lnk:active{/*(CSS Styling Links, n.d.)*/
+  background-color: grey;  
+}
+
+h4.tc{
+    text-align: center; /*(CSS Text, n.d.)*/
+}
+
+ul.insurance-list li{
+  padding: 4px;
+  text-align: left;
+}
+
+table.time-work{
+  border-collapse: collapse;  
+  width: 100%;
+}
+
+table.time-work tr:nth-child(even){
+  background-color: lightblue;
+}
+
+table.time-work tr:hover {
+  background-color: grey;
+}
+
+table.time-work th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+p{
+  text-align: justify;/*(CSS Text, n.d.)*/
+  letter-spacing: 3px;
+}
+
+h3{
+    padding: 10px;/*(CSS Text, n.d.)*/
+    text-align: center;
+}
+
+h2.insure-works{
+    text-align: left;/*(CSS Text, n.d.)*/
+}
+
+ul.ourwork{/*(CSS Styling Lists, n.d.)*/
+    list-style-type: none;
+}
+
+ul.ourwork li{/*(CSS Styling Lists, n.d.)*/
+    text-align: center;
+    padding: 5px;
+}
+
+.car-works{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imgready-work{
+  position: relative;
+  text-align: center;
+  color: darkblue;
+}
+
+.work{
+  size: 15px;  
+}
+
+.icon-work{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  opacity: 0.2;
+}
+
+.gallery-img{/*(CSS Image Gallery, n.d.)*/
+  border: 1px solid #ccc;
+  object-fit: cover;
+}
+
+.gallery-img:hover {/*(CSS Image Gallery, n.d.)*/
+  border: 1px solid #777;
+}
+
+.gallery-img img{/*(CSS Image Gallery, n.d.)*/
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+div.desc {/*(CSS Image Gallery, n.d.)*/
+  padding: 15px;
+  text-align: center;
+}
+
+* {/*(CSS Image Gallery, n.d.)*/
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.responsive-gall{/*(CSS Image Gallery, n.d.)*/
+  padding:6px;
+  float: left;
+  width: 20%;
+}
+
+@media only screen and (max-width: 700px) {/*(CSS Image Gallery, n.d.)*/
+  .responsive {
+    width: 40%;
+    margin: 6px;
+  }
+}
+
+@media only screen and (max-width: 500px) {/*(CSS Image Gallery, n.d.)*/
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {/*(CSS Image Gallery, n.d.)*/
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=text], select {/*(CSS Forms, n.d.)*/
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  align-self: center;
+}
+
+input[type=submit] {/*(CSS Forms, n.d.)*/
+  width: 50%;
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {/*(CSS Forms, n.d.)*/
+  width: 50%;
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=email] {/*(CSS Forms, n.d.)*/
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=tel] {/*(CSS Forms, n.d.)*/
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+input[type=submit]:hover {/*(CSS Forms, n.d.)*/
+  background-color: lightblue;
+}
+
+input[type=reset]:hover {/*(CSS Forms, n.d.)*/
+  background-color: lightblue;
+}
+
+div {
+  border-radius: 5px;/*(CSS Forms, n.d.)*/
+  background-color: lightblue;
+  padding: 20px;
+}
+
+label {/*(CSS Forms, n.d.)*/
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=text], select, textarea {/*(CSS Forms, n.d.)*/
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+@media screen and (max-width: 600px) {/*(CSS Forms, n.d.)*/
+  .col-25, .col-75, input[type=submit] {
+    width: 50%;
+    margin-top: 0;
+  }
+}
+
+.social-m{
+    text-align: left; /*(CSS Text, n.d.)*/
+}
+
+.g-maps{
+    text-align: left; /*(CSS Text, n.d.)*/
+}
+
+/*
+References:
+W3schools.com. n.d. CSS Tutorial. [online] Available at: <https://www.w3schools.com/css> [Accessed 22 July 2020].
+W3schools.com. n.d. CSS Backgrounds. [online] Available at: <https://www.w3schools.com/css/css_background.asp> [Accessed 22 July 2020].
+W3schools.com. n.d. CSS Text. [online] Available at: <https://www.w3schools.com/css/css_text.asp> [Accessed 22 July 2020].
+W3schools.com. n.d. CSS Navigation Bar. [online] Available at: <https://www.w3schools.com/css/css_navbar.asp> [Accessed 22 July 2020].
+W3schools.com. n.d. CSS Styling Links. [online] Available at: <https://www.w3schools.com/css/css_link.asp> [Accessed 22 July 2020].
+W3schools.com. n.d. CSS Styling Lists. [online] Available at: <https://www.w3schools.com/css/css_list.asp> [Accessed 22 July 2020].
+W3schools.com. n.d. CSS Forms. [online] Available at: <https://www.w3schools.com/css/css_form.asp> [Accessed 22 July 2020].
+W3schools.com. n.d. CSS Image Gallery. [online] Available at: <https://www.w3schools.com/css/css_image_gallery.asp> [Accessed 22 July 2020].
+Facebook.com. (n.d.). Hatwagen Motors CC. [online] Available at: https://www.facebook.com/hatwagen/ [Accessed 26 Feb. 2020].>
+Stickpng.com. (n.d.). Download Facebook Icon transparent PNG - StickPNG. [online] Available at: https://www.stickpng.com/img/download/584ac2d03ac3a570f94a666d [Accessed 26 Feb. 2020].>
+Facebook Logo. (2015). [image] Available at: http://weeklyups.com/wp-content/uploads/2015/02/Facebook-Logo-2.jpg [Accessed 24 Apr. 2015].>
+W3schools.com. (n.d.). HTML Tutorial. [online] Available at: https://www.w3schools.com/html/default.asp [Accessed 26 Feb. 2020].>
+Wallpaperaccess.com. (n.d.). Pure Blue 4K Wallpapers - Top Free Pure Blue 4K Backgrounds - WallpaperAccess. [online] Available at: https://wallpaperaccess.com/pure-blue-4k [Accessed 26 Feb. 2020].>
+Pure Wallpapers (n.d.). 629055.jpg. [image] Available at: https://wallpaperaccess.com/pure-blue-4k [Accessed 26 Feb. 2020].>
+Car Brand Names.com. (n.d.). German Car Brands, Companies and Manufacturers | Car Brand Names.com. [online] Available at: http://www.car-brand-names.com/german-car-brands/ [Accessed 26 Feb. 2020].>
+Car Brand Names (2015). German-car-brands-logotypes. [image] Available at: http://www.car-brand-names.com/wp-content/uploads/2015/03/German-car-brands-logotypes-720x471.png [Accessed 26 Feb. 2020].>
+RMI. (n.d.). Welcome to RMI | Retail Motor Industry Organisation. [online] Available at: https://www.rmi.org.za [Accessed 26 Feb. 2020].>
+RMI (2019). RMI LOGO high res. [image] Available at: https://www.rmi.org.za/why-use-an-accredited-vehicle-repairer-or-dealership/rmi-logo-high-res-1024x546/ [Accessed 26 Feb. 2020].>
+FAVPNG (2018). FAVPNG_car-volkswagen-motor-vehicle-service-icon-design_WfFqSmqN.png. [image] Available at: https://favpng.com/png_download/WfFqSmqN [Accessed 26 Feb. 2020].>
+Hatwagenmotors.co.za. (n.d.). Hatwagen Motors CC. [online] Available at: https://www.hatwagenmotors.co.za [Accessed 26 Feb. 2020].>
+Hattingh, F. (2020). photo1. [photo] Preotria: Fernando Hattingh.>
+Hattingh, F. (2020). photo2. [photo] Preotria: Fernando Hattingh.>
+Hattingh, F. (2020). photo3. [photo] Preotria: Fernando Hattingh.>
+Hattingh, F. (2020). photo4. [photo] Preotria: Fernando Hattingh.>
+Hattingh, F. (2020). photo5. [photo] Preotria: Fernando Hattingh.>
+Hattingh, F. (2020). photo6. [photo] Preotria: Fernando Hattingh.>
+Hattingh, F. (2020). photo7. [photo] Preotria: Fernando Hattingh.>
+WEB DEVELOPMENT (INTRODUCTION) MODULE MANUAL 2020. (2013). 1st ed. [ebook] The Independent Institute of Education, pp.1-129. Available at: https://portal.iie.ac.za/Student%20Manuals/WEDE5010_Web_Development_Introduction/2020/STManual.pdf [Accessed 26 Feb. 2020].
+Hatwagen Motors CC. (n.d.). Hatwagen
+*/
